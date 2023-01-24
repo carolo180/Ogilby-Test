@@ -1,0 +1,348 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2vh;
+}
+.firstGrid{
+    height: 60vh;
+}
+.UI{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 2vw;
+}
+.UI h1{
+    font-size: 4rem;
+    font-family:"krub-bold";
+    color: #fff;
+}
+.point{
+    font-size: 7rem;
+    color: #a460f9;
+}
+.begginer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 2vh 0  0 40px;
+}
+.begginer h4{
+    font-family:"krub-light";
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+    font-size: 2rem;
+    letter-spacing: 4px;
+    color: #fff;
+}
+.lastS{
+    font-family:"krub-bold";
+}
+.secondBegginer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3vh 0 0 5vh;
+ }
+.square{
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+}
+.becomeText{
+    font-family:"krub";
+    color: #fff;
+    padding: 0 0 0 10px;
+    font-size: 0.9rem;
+}
+.narrowLeft{
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.narrowIcon{
+    display: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.secondGrid{
+    display: flex;
+    justify-content: center;
+    margin-top: -15vh;
+    height: 70vh;
+ }
+.circle{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 20vh;
+}
+.modelLanding{
+    position: absolute;
+    width: 200px;
+}
+.editSquare{
+    font-family:"krub-bold";
+    width: 32%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-right: transparent;
+    color: #fff;
+    float: right;
+}
+.editSquare p{
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+.mainText{
+    color: #fff;
+    margin-top: 15vh;
+    font-family:"krub";
+    padding-left: 25px;
+}
+.mainText h1{
+    font-size: 1rem;
+    line-height: 25px;
+}
+.mainText p{
+    font-size: 0.8rem;
+    width: 70%;
+    line-height: 20px;
+    padding-top: 5px;
+}
+.landingButtons{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+.landingButtons button{
+    height: 35%;
+    width: 80%;
+    color: #fff;
+    font-family:"krub-bold";
+}
+.startButton{
+    background-color: #a460f9;
+    border-radius: 3px;
+}
+.readButton{
+    background-color: transparent;
+    border: transparent;
+}
+
+
+@media only screen and (max-width: 590px) and (min-width: 390px)  {
+   
+    .editSquare{
+     margin-top: -15vh;
+    }
+    .mainText{
+        margin-top: -3vh;
+        width: 100%;
+        padding-left: 35px;
+      }
+    
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .main{
+        margin-top: 0vh;
+    }
+    .UI h1{
+        font-size: 6rem;
+    }
+    .begginer{
+        grid-template-columns: 1fr 5fr;
+        padding: 2vh 0  0 40px;
+    }
+    .secondBegginer{
+        padding: 0 0 0 0;
+    }
+    .square{
+        width: 17px;
+        height: 17px;
+    }
+    .becomeText{
+        font-size: 1.3rem;
+    }
+    .modelLanding{
+        width: 350px;
+        top: 25vh;
+        left: 30vh;
+    }
+    .circle{
+        width: 370px;
+        height: 370px;
+        top: -5vh;
+        left: 9vh;
+    }
+    .editSquare{
+        margin-top: -10vh;
+        font-size: 1.5rem;
+     }
+    .editSquare p{
+        font-size: 1.3rem;
+     }
+     .mainText{
+        margin-top: 5vh;
+        width: 100%;
+        padding-left: 35px;
+      }
+    .mainText h1{
+        font-size: 1.9rem;
+        line-height: 33px;
+    }
+    .mainText p{
+        font-size: 1.4rem;
+        width: 80%;
+        line-height: 28px;
+        padding-top: 15px;
+        letter-spacing: 1.5px;
+    }
+    .landingButtons button{
+      font-size: 1.5rem;
+    }
+   
+}
+@media only screen and (max-width: 1024px) and (min-width: 1000px)  {
+    .secondBegginer{
+        padding: 10vh 0 0 120vh;
+        position: absolute;
+    }
+    .becomeText{
+        font-size: 1.1rem;
+    }
+    .UI{
+        margin-top: 7vh;
+     }
+     .modelLanding{
+        top: 25vh;
+        left: 70vh;
+    }
+    .circle{
+        width: 270px;
+        height: 270px;
+        top: -5vh;
+        left: 4vh;
+    }
+    .editSquare{
+        margin-top: -15vh;
+        width: 30vh;
+        padding-left: 30px;
+        font-size: 1.2rem;
+        letter-spacing: 5px;
+     }
+     .mainText{
+        margin-top: 5vh;
+        width: 100%;
+        padding-left: 35px;
+      }
+    .mainText h1{
+        font-size: 1.8rem;
+        line-height: 33px;
+    }
+    .mainText p{
+        font-size: 1.1rem;
+        width: 80%;
+        line-height: 28px;
+        padding-top: 15px;
+        letter-spacing: 1.5px;
+    }
+    .landingButtons button{
+      font-size: 1.3rem;
+   
+     }
+}
+@media screen and (min-width:1025px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 10vh;
+        height: 100vh;
+    }
+    .firstGrid{
+        padding-left: 5vh;
+    }
+
+    .UI{
+       margin-top: 7vh;
+    }
+    .UI h1{
+        font-size: 9rem;
+    }
+    .begginer h4{
+        font-size: 2.5rem;
+    }
+    .secondBegginer{
+         align-items: center;
+    }
+    .becomeText{
+        padding: 10px 0 0 10px;
+     }
+    .narrowIcon{
+        font-size: 4rem;
+         display: flex;
+    }
+    .secondGrid{
+        margin-top: 50px;
+    }
+    .modelLanding{
+          width: 300px;
+    }
+    .circle{
+        width: 370px;
+        height: 370px;
+        top: 20vh;
+    }
+    .editSquare{
+       margin-top: 15vh;
+       height: 12%;
+       align-items: flex-start;
+       padding-left: 30px;
+       font-size: 1.2rem;
+       letter-spacing: 5px;
+    }
+    .editSquare p{
+       font-size: 1rem;
+    }
+    .mainText{
+        margin-top: 35vh;
+        width: 82%;
+        padding-left: 35px;
+      }
+    .mainText h1{
+        font-size: 1.2rem;
+        line-height: 28px;
+    }
+    .mainText p{
+        font-size: 0.9rem;
+        width: 70%;
+        line-height: 25px;
+        padding-top: 10px;
+        letter-spacing: 1px;
+    }
+    .landingButtons{
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 0;
+        padding-left: 35px;
+    }
+    .landingButtons button{
+        height: 38%;
+        width: 49%;
+    }
+    .narrowRight{
+        height: 21vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+   }
