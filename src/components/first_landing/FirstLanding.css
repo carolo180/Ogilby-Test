@@ -122,12 +122,14 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 5vh;
+    margin-bottom: 4vh;
 }
 .landingButtons button{
     height: 35%;
     width: 80%;
     color: #fff;
     font-family:"krub-bold";
+    font-size: 1rem;
 }
 .startButton{
     background-color: #a460f9;
@@ -257,7 +259,7 @@
     }
     .landingButtons button{
       font-size: 1.3rem;
-   
+      height: 8vh;
      }
 }
 @media screen and (min-width:1025px){

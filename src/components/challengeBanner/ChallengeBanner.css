@@ -1,0 +1,142 @@
+.challengeBanner{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+}
+.challengeSquare{
+    width: 7px;
+    height: 7px;
+    background-color: var(--letter-color);
+ }
+.rotateText{
+    font-family:"krub";
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    color: var(--letter-color);
+    display: flex;
+    height: 23vh;
+    justify-content: center;
+    align-items: center;
+}
+.rotateText p{
+    padding: 10px 0px;
+}
+.ellipsisGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.ellipseSect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+.ellip{
+    width: 200px;
+    position: relative;
+}
+.centerText{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--letter-color);
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.centerText p{
+    font-family:"krub-bold";
+}
+.centerText span{
+    font-family:"krub-light";
+}
+.arrow{
+    width: 10px;
+}
+.underText{
+    color: rgba(255, 255, 255, 0.085);
+    font-family:"krub-bold";
+    font-size: 1rem;
+   display: flex;
+   justify-content: center;
+}
+.sec{
+    -webkit-transform: rotate(0deg);
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .challengeSquare{
+        width: 15px;
+        height: 15px;
+    }
+    .rotateText{
+        font-size: 1rem;
+    }
+    .ellip{
+        width: 500px;
+    }
+    .centerText{
+        font-size: 4rem;
+    }
+    .arrow{
+        width: 25px;
+    }
+    .underText{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .challengeBanner{
+        height: 60vh;
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        margin-top: 5vh;
+        margin-bottom: 15vh;
+    }
+    .challengeSquare{
+        width: 12px;
+        height: 12px;
+    }
+    .rotateText{
+        font-size: 1rem;
+        letter-spacing: 1px;
+         height: 30vh;
+     }
+    .fgrid{
+        align-items: flex-start;
+        padding-left: 5vh;
+    }
+   .lgrid{
+    align-items: flex-end;
+    padding-right: 5vh;
+   }
+   .ellipseSect{
+    margin-top: 10vh;
+   }
+    .ellip{
+        width: 700px;
+    }
+    .centerText{
+        font-size: 3.6rem;
+    }
+    .arrow{
+        width: 22px;
+        margin-top: 10vh;
+    }
+    .underText{
+        font-size: 2.1rem;
+        letter-spacing: 2px;
+    }
+   
+
+}

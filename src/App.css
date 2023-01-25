@@ -25,3 +25,9 @@ font-weight: none;
     font-style: normal;
     font-weight: none;
  }
+ @font-face{
+   font-family:"krub-medium";
+   src: url("./assets/Krub/Krub-Medium.ttf") format("truetype");
+   font-style: normal;
+   font-weight: none;
+}

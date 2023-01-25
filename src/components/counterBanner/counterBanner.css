@@ -1,0 +1,89 @@
+.counterBanner{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    border: 8px solid #151515;
+    padding-top: 5vh;
+    justify-content: space-between;
+}
+.counterBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.counterNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counterNumber h1{
+   font-size: 2.2rem;
+   font-family:"krub-bold";
+   padding-left: 3px;
+}
+.plusIcons{
+    color: #a460f9;
+    font-size: 1rem;
+}
+.counterText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    letter-spacing: 2px;
+}
+.counterText p{
+    font-family:"krub-light";
+}
+.counterText h6{
+    font-family:"krub-medium";
+    font-size: 1.1rem;
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .counterText{
+        letter-spacing: 5px;
+    }
+    .counterNumber h1{
+        font-size: 4rem;
+     }
+    .counterText p{
+        font-size: 1.9rem;
+    }
+    .counterText h6{
+        font-size: 1.9rem;
+    }
+    .plusIcons{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .counterBanner{
+        height: 30vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 0vh;
+    }
+    .counterBox{
+        flex-direction: row;
+    }
+    .counterText{
+        letter-spacing: 5px;
+        align-items: flex-start;
+        padding-left: 1vw;
+    }
+    .counterNumber h1{
+        font-size: 3rem;
+     }
+    .counterText p{
+        font-size: 1.3rem;
+    }
+    .counterText h6{
+        font-size: 1.3rem;
+    }
+    .plusIcons{
+        font-size: 1.5rem;
+    }
+}
