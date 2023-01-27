@@ -1,0 +1,148 @@
+.usersThought{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+.usersTitle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.usersTitle h1{
+    color: var(--letter-color);
+    font-family:"krub-bold";
+    font-size: 2rem;
+}
+.usersTitle p{
+   color: var(--lightcontrast-color);
+   font-family:"krub-light";
+   font-size: 1rem;
+   letter-spacing: 3px;
+}
+.userSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+.users h1{
+    color: var(--gray-color);
+    font-family:"krub";
+    padding-top: 30px;
+}
+.userQualify{
+    margin-top: 30px;
+    color:#70599f;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.emptyIcon{
+  color: var(--gray-color);
+}
+.users p{
+    color: var(--gray-color);
+    font-family: "krub";
+    font-size: 0.8rem;
+    padding: 30px;
+    text-align: center;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+.quots{
+    color: var(--lightcontrast-color);
+    font-size: 1.5rem;
+}
+.foot{
+    position: absolute;
+    right: 17%;
+}
+.footIcons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 5vh;
+}
+.arrow1{
+    -webkit-transform: rotate(90deg);
+}
+.arrow2{
+    -webkit-transform: rotate(-90deg);
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+     .usersTitle h1{
+        font-size: 4.5rem;
+    }
+    .usersTitle p{
+       font-size: 2.3rem;
+    }
+    .users img{
+        width: 350px;
+    }
+    .users h1{
+        font-size: 2.5rem;
+        margin-top: 3vh;
+    }
+    .userQualify{
+         font-size: 2rem;
+         width: 50%;
+    }
+    .users p{
+        font-size: 1.5rem;
+        line-height: 40px;
+        word-spacing: 15px;
+    }
+    .quots{
+        font-size: 2.2rem;
+    }
+    .foot{
+        right: 17%;
+    }
+    .footIcons{
+        padding-top: 8vh;
+    }
+ 
+}
+@media screen and (min-width:1024px){
+  
+    .usersTitle h1{
+        font-size: 6rem;
+    }
+    .usersTitle p{
+        font-size: 2.5rem;
+    }
+    .userSection{
+        flex-direction: row;
+        justify-content: space-around;
+         width: 100%;
+    }
+    .userQualify{
+        font-size: 1.3rem;
+        width: 50%;
+    }
+    .users p{
+        font-size: 0.9rem;
+        padding: 25px;
+        line-height: 25px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+    }
+    .foot{
+       left: 17%;
+    }
+    .footIcons{
+        width: 30%;
+        padding-top: 5vh;
+    }
+}

@@ -9,7 +9,9 @@
 :root {
   --background-color: #181818;
   --contrast-color: #a460f9;
+  --lightcontrast-color:#aa84f9;
   --letter-color: #fff;
+  --gray-color: #aeaeae;
 }
 
 body {

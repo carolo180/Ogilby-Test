@@ -31,3 +31,9 @@ font-weight: none;
    font-style: normal;
    font-weight: none;
 }
+@font-face{
+   font-family:"oswald-medium";
+   src: url("./assets/Oswald/static/Oswald-Medium.ttf") format("truetype");
+   font-style: normal;
+   font-weight: none;
+}

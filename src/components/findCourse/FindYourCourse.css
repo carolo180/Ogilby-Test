@@ -1,0 +1,322 @@
+.findYourCourse{
+    height: 250vh;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.headCourse{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+.courses{
+    margin-top: -20vh;
+}
+.headTitle{
+    color: var(--letter-color);
+    display: flex;
+    align-items: center;
+  }
+.editCourse{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: var(--letter-color);
+}
+.squareDiv{
+    display: flex;
+}
+
+.headTitle h1{
+    font-family: "krub";
+    font-size: 2.1rem;
+}
+.headTitle p{
+    padding: 0.5rem 0.5rem;
+    font-family:"krub-extralight";
+    padding-bottom: 0px;
+}
+.squareCourse{
+    width: 1.3vh;
+    height: 1.3vh;
+    background-color: var(--letter-color);
+    margin-right: 1.5vw;
+    margin-top: 6%;
+  }
+.editCourse p{
+    font-family:"krub";
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+.twentytwo{
+    font-family:"krub-bold";
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+}
+.courses{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .eachCourse{
+    border: 3px solid var(--letter-color);
+    width: 60vw;
+    margin-top: 10vh;
+ }
+ .eachCourse h4{
+    width: 15%;
+    background-color: var(--letter-color);
+    padding: 5px;
+    font-family:"krub-medium";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+ }
+ .bodyCourses{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .eachCourse h1{
+    color: var(--letter-color);
+    font-size: 1.3rem;
+    font-family: "krub";
+    padding: 7% 0 4% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+ }
+ .eachCourse h1 span{
+    color: var(--lightcontrast-color);
+    padding-left: 3%;
+    font-family:"krub-bold";
+ }
+  hr{
+    width: 15%;
+    border-color: var(--contrast-color);
+ }
+ .eachCourse p{
+    color: var(--letter-color);
+    text-align: center;
+    font-family:"krub";
+    font-size: 0.7rem;
+    padding: 15px;
+    line-height:20px;
+    letter-spacing: 1px;
+ }
+ .courseBtn{
+    background-color: var(--lightcontrast-color);
+    padding: 8px 12px;
+    font-size: 0.7rem;
+    color: var(--letter-color);
+    font-family:"oswald-medium";
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+ }
+ .footerCourses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+ }
+ .footerCourses p{
+    font-family:"krub-bold";
+    color: var(--letter-color);
+ }
+ .footerCourses img{
+    -webkit-transform: rotate(-90deg);
+    margin-left: 5vh;
+    width: 15px;
+ }
+
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .headTitle{
+        margin-top: 5vh;
+    }
+    .headTitle h1{
+        font-size: 3rem;
+    }
+    .headTitle p{
+        font-size: 2rem;
+    }
+    .squareCourse{
+        width: 1.4vh;
+        height: 1.4vh;
+        margin-top: 30px;
+    }
+     .editCourse p{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .twentytwo{
+        font-family:"krub-bold";
+        font-size: 3rem;
+        letter-spacing: 4px;
+    }
+    .courses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0vh;
+     }
+    .eachCourse h4{
+        font-size: 2rem;
+     }
+    .eachCourse h1{
+         font-size: 3.3rem;
+     }
+    .eachCourse p{
+         font-size: 1.5rem;
+         padding: 35px;
+         line-height:40px;
+      }
+      .courseBtn{
+         padding: 18px 25px;
+         font-size: 1.3rem;
+     }
+     .footerCourses p{
+       font-size: 1.5rem;
+     }
+     .footerCourses img{
+         width: 25px;
+     }
+}
+@media only screen and (max-width: 1900px) and (min-width: 1024px)  {
+    .findYourCourse{
+        height: 120vh;
+    }
+    .headCourse{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5vh;
+    }
+    .headTitle{
+        align-items: flex-end;
+        margin-top: 5vh;
+    }
+    .headTitle h1{
+        font-size: 5rem;
+        line-height: 65px;
+    }
+    .headTitle p{
+        font-size: 1.8rem;
+        letter-spacing: 4px;
+    }
+    .squareCourse{
+        width: 1.3vh;
+        height: 1.3vh;
+        margin-top: 0.2vh;
+        margin-right: 1.8vh;
+    }
+    .squareDiv{
+        justify-content: center;
+        align-items: center;
+    }
+    .editCourse p{
+        font-size: 0.9rem;
+        letter-spacing: 4px;
+    }
+    .twentytwo{
+        font-family:"krub-bold";
+        font-size: 1.7rem;
+        letter-spacing: 5px;
+    }
+    .courses{
+        flex-direction: row;
+        padding: 5vh;
+    }
+    .eachCourse{
+        width: 18vw;
+        margin-top: 0vh;
+     }
+     .eachCourse h4{
+        font-size: 1rem;
+     }
+    .eachCourse h1{
+         font-size: 1.7rem;
+         padding: 10% 0 4% 0;
+     }
+    .eachCourse p{
+         font-size: 0.7rem;
+     }
+      .courseBtn{
+        font-size: 0.8rem;
+     }
+}
+
+@media screen and (min-width:1200px){
+    .findYourCourse{
+        height: 100vh;
+    }
+    .headCourse{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5vh;
+    }
+    .headTitle{
+        align-items: flex-end;
+    }
+    .headTitle h1{
+        font-size: 6rem;
+        line-height: 65px;
+    }
+    .headTitle p{
+        font-size: 1.8rem;
+        letter-spacing: 4px;
+    }
+    .squareCourse{
+        width: 1.3vh;
+        height: 1.3vh;
+        margin-top: 0.2vh;
+        margin-right: 1.8vh;
+    }
+    .squareDiv{
+        justify-content: center;
+        align-items: center;
+    }
+    .editCourse p{
+        font-size: 0.9rem;
+        letter-spacing: 4px;
+    }
+    .twentytwo{
+        font-family:"krub-bold";
+        font-size: 1.7rem;
+        letter-spacing: 5px;
+    }
+    .courses{
+        flex-direction: row;
+        padding: 5vh;
+        margin-top: 0%;
+    }
+    .eachCourse{
+        width: 18vw;
+        margin-top: 0vh;
+     }
+     .eachCourse h4{
+        font-size: 1.4rem;
+     }
+    .eachCourse h1{
+         font-size: 2.2rem;
+         padding: 10% 0 4% 0;
+     }
+    .eachCourse p{
+         font-size: 0.9rem;
+         padding: 30px;
+         line-height:28px;
+      }
+      .courseBtn{
+         padding: 13px 22px;
+         font-size: 0.9rem;
+     }
+    .footerCourses img{
+          width: 22px;
+      }
+ 
+    
+}

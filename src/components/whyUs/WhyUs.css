@@ -1,0 +1,117 @@
+.whyUs{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: url(../../assets/images/Explore.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+.threeImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_Image{
+    position: relative;
+    width: 380px;
+}
+.t_Image{
+    position: absolute;
+    width: 220px;
+}
+.s_Image{
+    position: absolute;
+   width: 230px;
+   margin-top: 18%;
+   margin-left: 10%;
+}
+.whyText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+.whyText h1{
+     color: var(--letter-color);
+     font-family:"krub-bold";
+     font-size: 2rem;
+}
+.whyText h1 span{
+    color: var(--lightcontrast-color);
+    font-family:"krub-extralight";
+    font-size: 1.7rem;
+    letter-spacing: 5px;
+}
+.whyText p{
+    color: var(--letter-color);
+    font-family:"krub";
+    font-size: 0.7rem;
+    padding: 20px;
+    line-height:20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .f_Image{
+        width: 750px;
+    }
+    .t_Image{
+        width: 400px;
+    }
+    .s_Image{
+        width: 400px;
+    }
+    .whyText h1{
+        font-size: 3rem;
+    }
+    .whyText h1 span{
+        font-size: 2.5rem;
+    }
+    .whyText p{
+        font-size: 1.4rem;
+        padding: 20px 20px;
+        line-height:35px;
+        letter-spacing: 1px;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .whyUs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -7vh;
+        height: 70vh;
+      }
+    .f_Image{
+        width: 650px;
+    }
+    .t_Image{
+        width: 340px;
+    }
+    .s_Image{
+       width: 350px;
+       margin-top: 5%;
+       margin-left: 4%;
+    }
+    .whyText{
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 15%;
+        margin-left: 5vw;
+   }
+    .whyText h1{
+        font-size: 3.3rem;
+    }
+    .whyText h1 span{
+        font-size: 2.5rem;
+         }
+    .whyText p{
+        font-size: 0.7rem;
+        padding: 0px;
+        text-align: left;
+        width: 55%;
+        margin: 20px 0px 20px;
+    }
+}
