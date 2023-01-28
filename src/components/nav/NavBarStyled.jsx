@@ -53,16 +53,22 @@ export const Menu = styled.ul`
             height:100vh;
             background-color:#181818;
             position:absolute;
-            top:100px;
             left:${({click}) =>(click ? "0" : "-100%")};
             flex-direction:column;
             justify-content:flex-start;
             transition:0.5s all ease-in;
             display:flex;
             color: #fde1be;
-            font-size:1.1rem;
             overflow:hidden;
          }
+         @media screen and (max-width:600px){
+            font-size:1.1rem;
+            top:90px;
+         }
+        @media only screen and (max-width: 1000px) and (min-width: 610px){
+             top:140px;
+              font-size:2rem;
+           }
        
 `;
 

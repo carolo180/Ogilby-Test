@@ -1,0 +1,163 @@
+.formu{
+    background: url(../../assets/images/backgroundMan.png) no-repeat left bottom;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+}
+.form{
+   height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.form h1{
+    color: var(--letter-color);
+    font-family:"krub-bold";
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+}
+.form h6{
+    color: #8c6eca;
+    font-family:"krub-extralight";
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+.form p{
+    color: var(--letter-color);
+    text-align: center;
+    padding: 10px 20px;
+    font-family:"krub-medium";
+    font-size: 0.6rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.container{
+    width: 80vw;
+    height: 60%;
+    margin-top: 5vh;
+}
+.contactForm{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactForm input{
+    height: 6vh;
+}
+.contactForm input, textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #8c6eca;
+    font-family:"krub-bold";
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    text-indent: 20px;
+    color: var(--letter-color);
+}
+.contactForm textarea::-webkit-input-placeholder{
+    line-height: 40px;
+}
+.searchBtn{
+    background-color: #8c6eca;
+    width: fit-content;
+    padding: 10px 10px;
+    color: var(--letter-color);
+    font-family:"oswald-medium";
+    font-size: 0.6rem;
+    border: none;
+    margin-top: 3vh;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .container{
+        height: 70%;
+    }
+    .form h1{
+        font-size: 3rem;
+    }
+    .form h6{
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+    }
+    .form p{
+        padding: 10px 90px;
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+    .contactForm textarea{
+        height: 20vh;
+        line-height: 70px;
+    }
+    .contactForm input, textarea{
+        border: 4px solid #8c6eca;
+        font-size: 1.1rem;
+        text-indent: 40px;
+    }
+    .contactForm textarea::-webkit-input-placeholder{
+        line-height: 70px;
+    }
+    .searchBtn{
+          padding: 23px 35px;
+         font-size: 1rem;
+         margin-top: 3vh;
+    }
+}
+@media screen and (max-width: 1900px) and (min-width: 1024px){
+    .formu{
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-top: 5vh;
+    }
+    .form{
+        justify-content:center;
+        width: 50vw;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    .form h1{
+         font-size: 2.2rem;
+     }
+    .form h6{
+        font-size: 2.1rem;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+    }
+    .form p{
+        padding: 15px 1% 5px;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .container{
+        width: 70%;
+        height: 63%;
+    }
+    .contactForm input, textarea{
+        font-size: 0.8rem;
+        text-indent: 25px;
+        border: 3px solid #8c6eca;
+     }
+    .contactForm textarea{
+        height: 18vh;
+       
+    }
+    .searchBtn{
+         padding: 15px 23px;
+         margin-top: 3vh;
+    }
+}
+@media screen and (max-width: 1900px) and (min-width: 1280px){
+    .formu{
+        height: 90vh;
+        padding-right: 10vw;
+    }
+    .contactForm input, textarea{
+        width: 90%;
+    }
+
+}

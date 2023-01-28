@@ -55,7 +55,7 @@
 .aboutText p, .listAbout{
     color: var(--letter-color);
     text-align: center;
-    font-family:"krub";
+    font-family:"krub-medium";
     font-size: 0.7rem;
     padding: 15px;
     line-height:20px;

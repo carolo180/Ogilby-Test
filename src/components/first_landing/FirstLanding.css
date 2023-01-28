@@ -56,12 +56,6 @@
     padding: 0 0 0 10px;
     font-size: 0.9rem;
 }
-.narrowLeft{
-    height: 20vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
 .narrowIcon{
     display: none;
     color: rgba(255, 255, 255, 0.5);
@@ -128,8 +122,9 @@
     height: 35%;
     width: 80%;
     color: #fff;
-    font-family:"krub-bold";
+    font-family:"oswald-medium";
     font-size: 1rem;
+    letter-spacing: 1px;
 }
 .startButton{
     background-color: #a460f9;
@@ -249,13 +244,15 @@
     .mainText h1{
         font-size: 1.8rem;
         line-height: 33px;
+        text-align: center;
     }
     .mainText p{
         font-size: 1.1rem;
-        width: 80%;
+        width: 100%;
         line-height: 28px;
-        padding-top: 15px;
+        padding: 15px 40px;
         letter-spacing: 1.5px;
+        text-align: center;
     }
     .landingButtons button{
       font-size: 1.3rem;
@@ -267,7 +264,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 10vh;
-        height: 100vh;
+        height: 90vh;
     }
     .firstGrid{
         padding-left: 5vh;
@@ -337,13 +334,37 @@
         padding-left: 35px;
     }
     .landingButtons button{
-        height: 38%;
-        width: 49%;
+       font-size: 0.8rem;
     }
-    .narrowRight{
-        height: 21vh;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-    }
+}
+
+    @media only screen and (max-width: 1300px) and (min-width: 1240px)  {
+        .narrowLeft{
+            height: 25vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .narrowRight{
+            height:17vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+        }
    }
+
+   @media only screen and (min-width: 1300px)  {
+        .narrowLeft{
+            height: 23vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .narrowRight{
+            height:17vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+        }
+   }
+ 

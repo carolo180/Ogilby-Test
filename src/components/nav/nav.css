@@ -1,6 +1,6 @@
 .header{
     background-color: #181818;
-    font-family:"krub";
+    font-family:"oswald-medium";
 }
 .signButton{
     background-color: #fff;
@@ -10,5 +10,6 @@
     font-weight: bold;
 }
 .active{
-    background-color: red;
+   border-bottom: 2px solid var(--letter-color);
+   padding-bottom: 1vh;
 }

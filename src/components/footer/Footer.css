@@ -1,0 +1,164 @@
+footer{
+    background-color: #8c6eca;
+    color: var(--letter-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 30% 30%;
+    height: 110vh;
+    padding-top: 5vh;
+}
+.columnFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+}
+.columnFooter h1{
+    font-family:"krub";
+    border-bottom: 1px solid var(--letter-color);
+    font-size: 1.3rem;
+}
+.columnFooter ul li{
+    font-family:"krub-light";
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 2px;
+}
+.thirdFoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+.thirdFoot h1{
+    text-align: right;
+    border: none;
+ }
+.span{
+    background-color: var(--letter-color);
+    width: 16%;
+    height: 1px;
+   margin-top: -6px;
+}
+.newsInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsInput input{
+    background-color: transparent;
+    border: 2px solid var(--letter-color);
+    height: 4vh;
+    width: 60%;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    margin-top: 1vh;
+}
+.follow p{
+    font-family:"krub-medium"; 
+    text-align: center;
+}
+.followIcons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+.socialIcons{
+    background-color: var(--letter-color);
+    color: #8c6eca;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px)  {
+    .columnFooter h1{
+        border-bottom: 2px solid var(--letter-color);
+        font-size: 2.7rem;
+    }
+    .columnFooter ul li{
+        font-size: 1.7rem;
+    }
+     .thirdFoot h1{
+        text-align: right;
+        border: none;
+        padding-bottom: 2vh;   
+     }
+    .span{
+       height: 2px;
+       margin-top: -15px;
+    }
+    .newsInput input{
+        height: 5vh;
+     }
+    .follow p{
+       font-size: 2rem;
+    }
+    .socialIcons{
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:1024px){
+    footer{
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: 1fr;
+        height: 70vh;
+        padding-top: 0vh;
+    }
+    .columnFooter{
+        justify-content: center;
+        height: 80%;
+        align-items: flex-start;
+        padding-left: 5vw;
+        margin-top: 7vh;
+    }
+    .columnFooter h1{
+        font-size: 1.5rem;
+        text-align: right;
+    }
+    .columnFooter ul{
+        padding-top: 2vh;
+    }
+    .columnFooter ul li{
+        text-align: left;
+        font-size: 1.1rem;
+     }
+    .thirdFoot{
+       align-items: flex-end;
+       justify-content: space-around;
+       padding-right: 7vh;
+     }
+    .newsInput{
+         align-items: flex-end;
+    }
+    .newsInput input{
+         height: 5vh;
+    }
+    .follow{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 60%;
+        margin-top: 0vh;
+    }
+    .followIcons{
+        padding-top: 0vh;
+        align-items: flex-start;
+        width: 50%;
+    }
+    .socialIcons{
+         width: 40px;
+        height: 40px;
+        font-size: 1.3rem;
+     }
+}

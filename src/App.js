@@ -1,27 +1,21 @@
+import React from 'react'
+import ScrollToTop from "./components/scroll/ScrollToTop"
+import { Routes, Route } from "react-router-dom";
 import './App.css';
 import Nav from './components/nav/Nav';
-import Main from "./components/first_landing/FirstLanding";
-import CounterBanner from "./components/counterBanner/CounterBanner"
-import ChallengeBanner from './components/challengeBanner/ChallengeBanner';
-import FIndYourCourse from './components/findCourse/FIndYourCourse';
-import AboutUs from './components/about us/AboutUs';
-import WhyUs from './components/whyUs/WhyUs';
-import VideoPlayer from './components/videoplayer/VideoPlayer';
-import UsersThought from './components/userThought/UsersThought';
-
+import RenderPage from './RenderPage';
 
 function App() {
   return (
+    
     <div className="App">
-      <Nav />
-      <Main />
-      <CounterBanner />
-      <ChallengeBanner />
-      <FIndYourCourse />
-      <AboutUs />
-      <WhyUs />
-      <VideoPlayer />
-      <UsersThought />
+       <ScrollToTop>
+          <Nav />
+          <Routes>
+                <Route path="/" element={<RenderPage />} />
+          </Routes>
+       </ScrollToTop>
+    
     </div>
   );
 }

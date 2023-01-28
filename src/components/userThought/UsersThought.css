@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 20vh;
+    padding-bottom: 10vh;
 }
 .usersTitle{
     display: flex;
@@ -40,6 +41,12 @@
     font-family:"krub";
     padding-top: 30px;
 }
+.userText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 .userQualify{
     margin-top: 30px;
     color:#70599f;
@@ -55,7 +62,7 @@
     color: var(--gray-color);
     font-family: "krub";
     font-size: 0.8rem;
-    padding: 30px;
+    padding:  10px 5px 10px 0px;
     text-align: center;
     line-height: 25px;
     word-spacing: 5px;
@@ -66,7 +73,6 @@
 }
 .foot{
     position: absolute;
-    right: 17%;
 }
 .footIcons{
     display: flex;
@@ -106,16 +112,12 @@
     .quots{
         font-size: 2.2rem;
     }
-    .foot{
-        right: 17%;
-    }
     .footIcons{
         padding-top: 8vh;
     }
  
 }
 @media screen and (min-width:1024px){
-  
     .usersTitle h1{
         font-size: 6rem;
     }
@@ -133,13 +135,9 @@
     }
     .users p{
         font-size: 0.9rem;
-        padding: 25px;
         line-height: 25px;
         word-spacing: 5px;
         letter-spacing: 1px;
-    }
-    .foot{
-       left: 17%;
     }
     .footIcons{
         width: 30%;

@@ -14,15 +14,13 @@ const VideoPlayer = () => {
             <img src={arrow} />
         </div>
         <div className='mainVideo'>
-        <ReactPlayer 
-           url='https://www.youtube.com/watch?v=r_wI-s_vMgM'
-           className='react-player'
-           muted
-           playing={false}
-           light={thumbnail}
-           playIcon
-           width='100%'
-           height='100%'
+          <ReactPlayer 
+            url='https://www.youtube.com/watch?v=hTLDHbFGE8A'
+            className='react-player'
+            playing
+            light={thumbnail}
+            width='100%'
+            height='100%'
             />
         </div>
         <div className='sectReady'>

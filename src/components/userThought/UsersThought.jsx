@@ -25,10 +25,13 @@ const UsersThought = () => {
                     <AiFillStar />
                     <AiFillStar className='emptyIcon' />
                 </div>
-                <p><RiDoubleQuotesL className='quots'/>Lorem ipsum dolor sit amet, con<br></br>sectetur adipiscing elit,
-                    sed do<br></br> eiusmod tempor incididunt ut<br></br> labore et dolore
-                    magna aliqua.<br></br> <RiDoubleQuotesR className='quots foot' />
-                </p>
+                <div className='userText'>
+                    <p><RiDoubleQuotesL className='quots'/> Lorem ipsum dolor sit amet, con<br></br>sectetur adipiscing elit,
+                        sed do<br></br> eiusmod tempor incididunt ut<br></br> labore et dolore
+                        magna aliqua.
+                    </p>
+                    <RiDoubleQuotesR className='quots foot' />
+                </div>
              </div>
              <div className='users'>
                     <img src={jhon} alt="imgJhon" />
@@ -40,10 +43,13 @@ const UsersThought = () => {
                     <AiFillStar />
                     <AiFillStar className='emptyIcon' />
                 </div>
-                <p><RiDoubleQuotesL className='quots'/>Lorem ipsum dolor sit amet, con<br></br>sectetur adipiscing elit,
-                    sed do<br></br> eiusmod tempor incididunt ut<br></br> labore et dolore
-                    magna aliqua.<br></br> <RiDoubleQuotesR className='quots foot' />
-                </p>
+                <div className='userText'>
+                    <p><RiDoubleQuotesL className='quots'/> Lorem ipsum dolor sit amet, con<br></br>sectetur adipiscing elit,
+                        sed do<br></br> eiusmod tempor incididunt ut<br></br> labore et dolore
+                        magna aliqua.
+                    </p>
+                    <RiDoubleQuotesR className='quots foot' />
+                </div>
              </div>
              <div className='users'>
                     <img src={sara} alt="imgSara" />
@@ -55,10 +61,13 @@ const UsersThought = () => {
                     <AiFillStar />
                     <AiFillStar className='emptyIcon' />
                 </div>
-                <p><RiDoubleQuotesL className='quots'/>Lorem ipsum dolor sit amet, con<br></br>sectetur adipiscing elit,
-                    sed do<br></br> eiusmod tempor incididunt ut<br></br> labore et dolore
-                    magna aliqua.<br></br> <RiDoubleQuotesR className='quots foot' />
-                </p>
+                <div className='userText'>
+                    <p><RiDoubleQuotesL className='quots'/> Lorem ipsum dolor sit amet, con<br></br>sectetur adipiscing elit,
+                        sed do<br></br> eiusmod tempor incididunt ut<br></br> labore et dolore
+                        magna aliqua.
+                    </p>
+                    <RiDoubleQuotesR className='quots foot' />
+                </div>
              </div>
         </article>
         <article className='footIcons'>

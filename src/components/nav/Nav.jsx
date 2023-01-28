@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
-import { NavLink } from "react-router-dom";
 import { NavBarContainer, NavBarWrapper, NavLogo, Menu, MenuItem, IconNav } from './NavBarStyled'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import "./nav.css"
@@ -32,23 +31,23 @@ const Nav = () => {
         <Menu click={click}>
           
           <MenuItem className='navlink'>
-            <Link activeClass="active" to={`imgbox`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink' onClick={()=>changeMenu()}>HOME</span></Link>
+            <Link activeClass="active" to={`main`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink' onClick={()=>changeMenu()}>HOME</span></Link>
           </MenuItem>
        
           <MenuItem className='navlink'>
-            <Link activeClass="active" to={`text-shadow`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink' onClick={()=>changeMenu()}>ABOUT</span></Link>
+            <Link activeClass="active" to={`findYourCourse`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink' onClick={()=>changeMenu()}>COURSES</span></Link>
           </MenuItem>
           
           <MenuItem className='navlink'>
-            <Link activeClass="active" to={`carru`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}>COURSES</span></Link>
+            <Link activeClass="active" to={`contain`} spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}>ABOUT</span></Link>
           </MenuItem>
 
           <MenuItem className='navlink'>
-            <Link activeClass="active" to={`box_form`}  spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}>BLOG</span></Link>
+            <Link activeClass="active" to={`usersThought`}  spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}>BLOG</span></Link>
           </MenuItem>
 
           <MenuItem className='navlink'>
-            <Link activeClass="active" to={`box_form`}  spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}><button className='signButton'>SIGN IN</button></span></Link>
+            <Link activeClass="active" to={`columnFooter`}  spy={true} smooth={true} offset={-90} duration={900} > <span className='navlink'  onClick={()=>changeMenu()}><button className='signButton'>SIGN IN</button></span></Link>
           </MenuItem>
 
         
