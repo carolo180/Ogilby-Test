@@ -1,7 +1,7 @@
 {
   "name": "ogilby-test",
   "version": "0.1.0",
-  "homepage": "http://carolo180.github.io/Ogilby-Test",
+  "homepage": "https://carolo180.github.io/Ogilby-Test",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages –d build",
+    "deploy": "gh-pages –d build --git git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "2.0"
   }
 }
