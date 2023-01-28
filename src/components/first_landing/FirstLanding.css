@@ -292,7 +292,7 @@
         margin-top: 50px;
     }
     .modelLanding{
-          width: 250px;
+          width: 270px;
     }
     .circle{
         width: 320px;
@@ -340,13 +340,13 @@
 
     @media only screen and (max-width: 1300px) and (min-width: 1240px)  {
         .narrowLeft{
-            height: 25vh;
+            height: 22vh;
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
         }
         .narrowRight{
-            height:17vh;
+            height:14vh;
             display: flex;
             justify-content: flex-start;
             align-items: flex-end;
