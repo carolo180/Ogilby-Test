@@ -292,11 +292,11 @@
         margin-top: 50px;
     }
     .modelLanding{
-          width: 300px;
+          width: 250px;
     }
     .circle{
-        width: 370px;
-        height: 370px;
+        width: 320px;
+        height: 320px;
         top: 20vh;
     }
     .editSquare{
@@ -355,13 +355,13 @@
 
    @media only screen and (min-width: 1300px)  {
         .narrowLeft{
-            height: 23vh;
+            height: 19vh;
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
         }
         .narrowRight{
-            height:17vh;
+            height:13vh;
             display: flex;
             justify-content: flex-start;
             align-items: flex-end;
